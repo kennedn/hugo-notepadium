@@ -1,0 +1,231 @@
+* {
+  scrollbar-color: rgba(255, 255, 255, 0.25) transparent
+}
+
+*::-webkit-scrollbar-thumb {
+  background-color: rgba(255, 255, 255, 0.25)
+}
+
+*::-webkit-scrollbar-thumb:hover {
+  background-color: rgba(255, 255, 255, 0.5)
+}
+
+body {
+  color: white;
+  background-color: #dd2164;
+}
+.note.list li:nth-child(3n+1){
+  background-color: #dd2164;
+}
+.note.list li:nth-child(3n+2){
+  background-color: #1c817e;
+}
+.note.list li:nth-child(3n) {
+  background-color: #6e04a9;
+}
+
+table thead {
+  color: white;
+  border-left: .25em solid #dfe2e5;
+}
+
+table tr:nth-child(even) {
+  //background-color: rgba(51, 54, 58, .15);
+  background-color: rgba(48,39,39,.37);
+}
+
+mark {
+  background-color: #515b70;
+}
+
+pre {
+  background-color: #393b3d;
+}
+
+.slogan,
+.license {
+  color: white;
+  font-weight: bold;
+}
+.date {
+  color: white;
+}
+
+.title,
+.site.name {
+  color: white;
+}
+
+.note.content {
+  color: white;
+}
+
+.article.markdown-body {
+}
+
+code,
+kbd,
+tt,
+samp {
+  color: #e5c07b;
+  background-color: rgba(240, 246, 252, 0.05);
+}
+
+a {
+  color: white;
+  font-weight: bold;
+}
+
+.pagination ul li a {
+  color: white;
+}
+
+.pagination ul li a.active {
+  color: white;
+  font-weight: bold;
+}
+
+.pagination ul li a:hover:not(.active) {
+  background-color: rgba(41, 151, 255, .5);
+}
+
+.tag {
+  color: white;
+}
+
+.category {
+  color: #24292e;
+  background-color: rgba(199, 213, 246);
+}
+
+strong,
+b,
+.article.markdown-body h1,
+.article.markdown-body h2,
+.article.markdown-body h3,
+.article.markdown-body h4,
+.article.markdown-body h5,
+.article.markdown-body h6 {
+  color: white;
+}
+
+.article.markdown-body q,
+.article.markdown-body blockquote {
+  color: #e5c07b;
+}
+
+.article.markdown-body blockquote {
+  border-left-color: #e5c07b;
+}
+
+#header {
+  background-color: #21262d1c;
+}
+
+.note.list .item {
+ background:
+    linear-gradient(to right, white 2px, transparent 2px) 0 0,
+    linear-gradient(to right, white 2px, transparent 2px) 0 100%,
+    linear-gradient(to left, white 2px, transparent 2px) 100% 0,
+    linear-gradient(to left, white 2px, transparent 2px) 100% 100%,
+    linear-gradient(to bottom, white 2px, transparent 2px) 0 0,
+    linear-gradient(to bottom, white 2px, transparent 2px) 100% 0,
+    linear-gradient(to top, white 2px, transparent 2px) 0 100%,
+    linear-gradient(to top, white 2px, transparent 2px) 100% 100%;
+
+  background-repeat: no-repeat;
+  background-size: 20px 20px;
+}
+
+.note.list .item:hover {
+  transition: transform 0.2s;
+  -webkit-transition: transform 0.2s;
+  transform: scale(0.98); 
+  -webkit-transform: scale(0.98); 
+}
+.note.list .item:not(:hover) {
+  transition: transform 0.2s;
+  -webkit-transition: transform 0.2s;
+  transform: scale(1.0);
+  -webkit-transform: scale(1.0); 
+}
+
+
+.responsive-iframe-container {
+  display: flex;
+  flex-direction: column; 
+  overflow: hidden;
+  width: 100%;
+  max-width: 640px;
+  height: 60vh;  
+  max-height: 860px;
+}
+
+.responsive-iframe {
+  flex-grow: 1;
+  margin-top: -40px;
+}
+
+
+.article-container {
+  background-color: #21262d1c !important;
+ background:
+    linear-gradient(to right, white 2px, transparent 2px) 0 0,
+    linear-gradient(to right, white 2px, transparent 2px) 0 100%,
+    linear-gradient(to left, white 2px, transparent 2px) 100% 0,
+    linear-gradient(to left, white 2px, transparent 2px) 100% 100%,
+    linear-gradient(to bottom, white 2px, transparent 2px) 0 0,
+    linear-gradient(to bottom, white 2px, transparent 2px) 100% 0,
+    linear-gradient(to top, white 2px, transparent 2px) 0 100%,
+    linear-gradient(to top, white 2px, transparent 2px) 100% 100%;
+
+  background-repeat: no-repeat;
+  background-size: 20px 20px;
+}
+
+@media (max-width: 500px) {
+  .note.list .item,
+  .article-container {
+    box-shadow: none;
+  }
+  
+  
+  .note.imgs .img {
+    display: none !important;
+  }
+
+  #content {
+    max-width: 100%;
+  }
+
+}
+
+.article.author .bio {
+  color: #828997;
+}
+
+/* border color */
+.article.markdown-body table td,
+.article.markdown-body table th,
+.article.markdown-body .lntable {
+  border-color: rgba(199, 213, 246, .25);
+}
+
+.article.markdown-body h1,
+.article.markdown-body h2 {
+  border-bottom-color: rgba(199, 213, 246, .25);
+}
+
+.article.license {
+  background-color: #345;
+  border-color: #456;
+}
+
+.article.discussion {
+  border-top-color: rgba(199, 213, 246, .25);
+  border-bottom-color: rgba(199, 213, 246, .25);
+}
+
+.article.markdown-body .lntable tr>:first-child {
+  border-right-color: rgba(199, 213, 246, .25);
+}
