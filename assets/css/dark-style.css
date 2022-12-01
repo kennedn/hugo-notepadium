@@ -15,10 +15,10 @@ body {
   background-color: #dd2164;
 }
 .note.list li:nth-child(3n+1){
-  background-color: #dd2164;
+  background-color: #1c817e;
 }
 .note.list li:nth-child(3n+2){
-  background-color: #1c817e;
+  background-color: #dd2164;
 }
 .note.list li:nth-child(3n) {
   background-color: #6e04a9;
@@ -157,7 +157,7 @@ b,
   overflow: hidden;
   width: 100%;
   max-width: 640px;
-  height: 60vh;  
+  height: 70vh;  
   max-height: 860px;
 }
 
