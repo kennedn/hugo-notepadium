@@ -150,6 +150,9 @@ b,
   -webkit-transform: scale(1.0); 
 }
 
+#notetd {
+  width: 70% !important;
+}
 
 .responsive-iframe-container {
   display: flex;
@@ -192,6 +195,10 @@ b,
   
   .note.imgs .img {
     display: none !important;
+  }
+
+  #notetd {
+    width: auto !important;
   }
 
   #content {

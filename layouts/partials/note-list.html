@@ -23,7 +23,7 @@
                     {{- end -}}
                 </span>
             {{- end -}}
-            <td>
+            <td id="notetd">
             <p class="note title">{{- .Title | safeHTML -}}</p>
             {{- if .Date -}}
                 <p class="note date">{{- .Date.Format $dateFormat -}}</p>
