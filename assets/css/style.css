@@ -692,6 +692,11 @@ b {
   color: white ;
 }
 
+.article.markdown-body pre.mermaid {
+  background-color: #00000000 !important;
+  color: white !important;
+}
+
 div.highlight pre {
   background-color: #1f1f24a3 !important;
   color: white ;
