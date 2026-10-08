@@ -236,3 +236,9 @@ b,
 .article.markdown-body .lntable tr>:first-child {
   border-right-color: rgba(199, 213, 246, .25);
 }
+
+.article.markdown-body p.figure-image + p {
+    color: #e5c07b;
+    text-align: center;
+    margin-top: 0;
+}
